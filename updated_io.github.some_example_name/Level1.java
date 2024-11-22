@@ -65,7 +65,7 @@ public class Level1 implements Screen {
         if (s.equals("night.png") || s.equals("night_resume.png")) {
             this.bg = new Texture("night.jpg");
         } else if (s.equals("day.png") || s.equals("day_resume.png")){
-            this.bg = new Texture("bg.jpg");
+            this.bg = new Texture("bga.jpg");
         } else if (s.equals("spooky.png") || s.equals("spooky_resume.png")){
             this.bg = new Texture("halloween.png");
         }
